@@ -1,6 +1,4 @@
 package tp3EstruturaDados.app.entities;
-
-
 import java.util.Random;
 
 public class Veiculo implements Comparable<Veiculo>{
