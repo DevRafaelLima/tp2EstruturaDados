@@ -1,10 +1,14 @@
 package tp3EstruturaDados.app.estruturaDeDados;
 
+import java.util.Collection;
+import java.util.Map;
+import java.util.Set;
+
 import tp3EstruturaDados.app.entities.Veiculo;
-import tp3EstruturaDados.app.entities.interfaces.IMap;
 
-public class LDE implements IMap{
-
+public class LDE implements Map<Veiculo, Integer>{
+    private Veiculo noh;
+    
 	@Override
 	public int size() {
 		// TODO Auto-generated method stub
@@ -30,21 +34,53 @@ public class LDE implements IMap{
 	}
 
 	@Override
-	public Veiculo get(Object key) {
+	public Integer get(Object key) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public Veiculo put(int key, Veiculo value) {
+	public Integer put(Veiculo key, Integer value) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public Veiculo remove(Object key) {
+	public Integer remove(Object key) {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	@Override
+	public void putAll(Map<? extends Veiculo, ? extends Integer> m) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void clear() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Set<Veiculo> keySet() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Collection<Integer> values() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Set<Entry<Veiculo, Integer>> entrySet() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
 
 }
